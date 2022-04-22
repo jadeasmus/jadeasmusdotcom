@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         {/* robot light 300 */}
         <style>
           @import
-          url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+          url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
         </style>
       </Head>
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import styles from "../styles/Projects.module.css";
 
 const projects = () => {
@@ -9,8 +10,9 @@ const projects = () => {
           <a
             href="https://pomodoro-next-6bqytq375-jadeasmus.vercel.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img
+            <Image
               className={styles.img}
               src="pomodoro.png"
               alt="Pomodor timer screencap"
@@ -19,7 +21,12 @@ const projects = () => {
           <p className={styles.description}>
             Pomodoro study timer made with Next.js and Tailwindcss
           </p>
-          <a title="Github" href="/">
+          <a
+            title="Github"
+            href="https://github.com/jadeasmus/pomodoro-next"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               className={styles.github_logo}
               xmlns="http://www.w3.org/2000/svg"
@@ -35,8 +42,9 @@ const projects = () => {
           <a
             href="https://pomodoro-next-6bqytq375-jadeasmus.vercel.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img
+            <Image
               className={styles.img}
               src="pomodoro.png"
               alt="Pomodor timer screencap"
@@ -46,7 +54,12 @@ const projects = () => {
             Web scraper that finds local therapists made with Flask and
             BeautifulSoup
           </p>
-          <a title="Github" href="/">
+          <a
+            title="Github"
+            href="https://github.com/jadeasmus/pomodoro-next"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               className={styles.github_logo}
               xmlns="http://www.w3.org/2000/svg"
@@ -62,8 +75,9 @@ const projects = () => {
           <a
             href="https://pomodoro-next-6bqytq375-jadeasmus.vercel.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img
+            <Image
               className={styles.img}
               src="pomodoro.png"
               alt="Pomodor timer screencap"
@@ -73,7 +87,12 @@ const projects = () => {
             Web scraper that finds local therapists made with Flask and
             BeautifulSoup
           </p>
-          <a title="Github" href="/">
+          <a
+            title="Github"
+            href="https://github.com/jadeasmus/pomodoro-next"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               className={styles.github_logo}
               xmlns="http://www.w3.org/2000/svg"
