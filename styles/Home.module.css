@@ -78,7 +78,16 @@
     rotate(-60deg);
 }
 
+/* circle animation */
+.circle {
+  transform: rotate(0deg);
+  animation: circle-rotate var(--circle-revolution) linear infinite both;
+}
+
 .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   bottom: 1.5rem;
   right: 2rem;
@@ -92,4 +101,8 @@
   cursor: pointer;
   transform: translate(0, -0.5rem);
   box-shadow: 0.1rem 0.5rem 1rem var(--blue);
+}
+.mail {
+  max-height: 2.5rem;
+  fill: var(--blue);
 }
