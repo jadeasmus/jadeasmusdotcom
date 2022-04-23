@@ -1,0 +1,40 @@
+.main {
+  height: 100vh;
+  margin: 2rem;
+}
+
+.name {
+  color: var(--blue);
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.title {
+  color: var(--orange);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 2rem;
+  height: 4rem;
+  width: 4rem;
+  background: var(--white);
+  border-radius: 50%;
+  box-shadow: 0.1rem 0.3rem 1rem var(--blue);
+}
+.contact:hover {
+  cursor: pointer;
+  transform: translate(0, -0.5rem);
+  box-shadow: 0.1rem 0.5rem 1rem var(--blue);
+}
+.mail {
+  max-height: 2.5rem;
+  fill: var(--blue);
+}
