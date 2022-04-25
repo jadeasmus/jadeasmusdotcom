@@ -27,6 +27,7 @@ const Layout = ({ children, title = "Jade's Portfolio" }: LayoutProps) => (
     <main className={styles.main}>
       <p className={styles.name}>Jade</p>
       <p className={styles.title}>Freelance Web Developer</p>
+
       {children}
     </main>
 
